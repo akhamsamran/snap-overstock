@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: anna
- * Date: 1/22/2018
- * Time: 8:06 AM
- */
 /**write a function to make a purchase in birtcoin cash and deduct from a user's bitcoin wallet
  * input:(float) price in bitcoin
  * input: (float) user's bitcoin wallet balance
@@ -17,30 +11,20 @@
 //const priceInBitcoin = float($priceInBitcoin);
 //const priceInBitcoinCash = float($priceInBitcoin * 0.22)
 /**
- * bitcoin's value
+/**here's what I want to find:
  *
- * @param float $priceInBitcoin
+ *return($walletBalance - $btcPrice / $exchangeRate);
  *
- */
-/**
- * bitoin cash's value in relation to bitcoin
- *
- * @param float $priceInBitoinCash
- */
-/**
- * user's wallet balance
- * @param float $userWalletBefore
- * @param float $userWalletAfter
+ *below is how to turn it into a function:
 **/
-
-$userWalletBefore - $priceInBitcoinCash = $userWalletAfter
-$priceInBitcoin = float(0.0)
-priceInBitcoinCash = float($priceInBitcoin * 0.22)
-
-	function
-
-
-$var = 0.22;
-$float_value_of_var = floatval($var);
-echo $float_value_of_var; // 122.34343
+function buyBuyBuy(float $bitcoinPrice, float $initialWalletBalance, float $exchangeRate): float {
+$actualBitcoinCashPrice = $bitcoinPrice / $exchangeRate;
+$newWalletBalance = $initialWalletBalance - $actualBitcoinCashPrice;
+return($newWalletBalance);
+}
+currentExchangeRate = 6.69032212482337;
+$actualBitoinCashPrice = 2.29;
+//$newWalletBalance = 118.43;
+echo buyBuyBuy($actualBitoinCashPrice, $initialWalletBalance, $exchangeRate) . PHP+EOL;
+// this is the anwer: $newWalletBalance = 118.43;
 ?>
