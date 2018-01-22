@@ -22,8 +22,8 @@ $actualBitcoinCashPrice = $bitcoinPrice / $exchangeRate;
 $newWalletBalance = $initialWalletBalance - $actualBitcoinCashPrice;
 return($newWalletBalance);
 }
-currentExchangeRate = 6.69032212482337;
-$actualBitoinCashPrice = 2.29;
+$exchangeRate = 6.69032212482337;
+$actualBitcoinCashPrice = 2.29;
 //$newWalletBalance = 118.43;
 echo buyBuyBuy($actualBitoinCashPrice, $initialWalletBalance, $exchangeRate) . PHP+EOL;
 // this is the anwer: $newWalletBalance = 118.43;
